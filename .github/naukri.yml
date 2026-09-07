@@ -1,6 +1,7 @@
 name: Update Naukri Profile
 
 on:
+  workflow_dispatch: # Manual trigger
   schedule:
     - cron: '0 0 * * *' # Run every day at midnight
 
